@@ -1,0 +1,154 @@
+html, body {
+  margin:0;
+  padding:0;
+  font-family: arial black;
+}
+
+div {
+  display: block;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #E0E6F8;
+}
+
+.top {
+  width: 100%;
+  background-color: #2E64FE;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contentname {
+  font-size: 40px;
+  font-family: impact;
+  color: #2E64FE;
+  text-align: center;
+  padding: 3px;
+}
+
+.calculator {
+
+}
+
+#table1 td {
+  align: right;
+}
+
+#table1 input {
+  width: 80px;
+  height: 60px;
+  color: white;
+  font-size: 13px;
+  font-family: arial black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin: 1px;
+  background-color: #A4A4A4;
+  border:1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#table1 .num {
+  width: 80px;
+  height: 60px;
+  color: white;
+  font-size: 13px;
+  font-family: arial black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin: 1px;
+  background-color: #A4A4A4;
+  border:1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#table1 .func {
+  width: 80px;
+  height: 60px;
+  color: white;
+  font-size: 13px;
+  font-family: arial black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin: 1px;
+  background-color: #A4A4A4;
+  border:1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#table1 input:active {
+  background-color: #6E6E6E;
+  box-shadow: 0 0 15px 8px #424242 inset;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+#table1 .func:active {
+  background-color: #6E6E6E;
+  box-shadow: 0 0 15px 8px #424242 inset;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+#table1 .func {
+  background-color: gray;
+}
+
+#table1 .opebtn {
+  background-color: orange;
+}
+
+#table1 .opebtn:active {
+  background-color: #FF8000;
+  box-shadow: 0 0 15px 8px #B45F04 inset;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+#table2 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#table2 td {
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+#table2 input {
+  color: white;
+  font: impact;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FE2E2E;
+  border: 1px white solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+  margin:0 10px 0 10px;
+  display: inline;
+}
+
+#table2 input:active {
+  background-color: #DF0101;
+  box-shadow: 0 0 15px 8px #B40404 inset;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
